@@ -2,3 +2,25 @@
 .btn-custom{ background-color: #2ca6a4;
   border-color: #2ca6a4;
   color: white;  }
+ 
+ .navbar{
+    height: 35px;
+    
+ } 
+.navbarText{
+    font-size: 12px;
+    color: white;
+} 
+
+body{
+    background-color: #262a2e;
+}
+
+.navbar a{
+    color:white;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    color:#114746;
+}
