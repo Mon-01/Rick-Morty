@@ -7,13 +7,18 @@
     height: 35px;
     
  } 
+
+ h1{color: white;}
 .navbarText{
     font-size: 12px;
     color: white;
 } 
 
+label{color: white;}
+
 body{
     background-color: #262a2e;
+
 }
 
 .navbar a{
