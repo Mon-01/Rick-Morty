@@ -49,6 +49,12 @@ async function cargarPersonajes(url) {
       rowPersonajes.appendChild(tarjeta);
     });
     
+    async function cargarfiltros(url){
+      const respuesta = await fetch(url);
+    const data = await respuesta.json();
+
+    
+    }
 
     urlActual = data.info.next;
     if (!urlActual) {
